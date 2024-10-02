@@ -38,7 +38,7 @@ export default function Lab1() {
         })
     }
     return (
-        <div>
+        <div className='container'>
 
             <form className="form" onSubmit={handleSubmit}>
                 <input type="text" placeholder="Nombre y apellido" {...fullNameBind} />
