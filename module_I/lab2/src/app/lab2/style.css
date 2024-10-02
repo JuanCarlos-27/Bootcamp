@@ -1,0 +1,26 @@
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.post {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.post:hover {
+  scale: 1.03;
+}
+h1 {
+  text-align: center;
+  margin-block: 20px;
+}
